@@ -76,8 +76,8 @@ task_id = sender.json
 status = get_status(task_id['task_id'])
 info = status.json
 print(info['status'], info['result'])
-status = get_status(task_id['task_id'])
 time.sleep(10)
+status = get_status(task_id['task_id'])
 print(info['status'], info['result'])
 
 if __name__ == "__main__":
