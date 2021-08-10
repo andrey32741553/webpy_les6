@@ -1,0 +1,4 @@
+Flask==2.0.1
+celery==5.1.2
+aiosmtplib==1.1.6
+redis==3.5.3
